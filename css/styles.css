@@ -76,6 +76,10 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--color-action);
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
